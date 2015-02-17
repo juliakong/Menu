@@ -1,0 +1,12 @@
+body {
+    margin-bottom: 0px;
+    background-image: url("../01.jpg");
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 
+}
+ .navbar.transparent.navbar-inverse .navbar-inner {
+   background: rgba(0,0,0,0.5);
+}
