@@ -1,12 +1,35 @@
-body {
-    margin-bottom: 0px;
-    background-image: url("../01.jpg");
-    background-position: 0% 25%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: white;
-    font-family: 
-}
+
  .navbar.transparent.navbar-inverse .navbar-inner {
    background: rgba(0,0,0,0.5);
+}
+
+html { 
+  background: url("../01.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#page1 {
+    color: #A00000 ;
+    clear:both;
+    text-align:center;
+    padding:420px; 
+    background-image: url("../01.jpg")
+}
+
+#page2 {
+    color:white;
+    clear:both;
+    text-align:left;
+    padding:40px; 
+    background-image: url("../07.jpg")
+}
+
+#page3 {
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:450px; 
+    background-image: url("../03.jpg") 
 }
