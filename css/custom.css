@@ -11,25 +11,52 @@ html {
   background-size: cover;
 }
 #page1 {
-    color: #A00000 ;
+    color: white ;
     clear:both;
     text-align:center;
-    padding:420px; 
+    padding:100px; 
+    margin-right: 0px;
     background-image: url("../01.jpg")
+    
 }
+#sidenav {position: absolute;
+    right: 40px;
+    top: 50px;
+    z-index: +1;
 
+}
 #page2 {
     color:white;
     clear:both;
     text-align:left;
     padding:40px; 
-    background-image: url("../07.jpg")
+    background-color: gray;
+/*    background-image: url("../07.jpg")*/
 }
+
+#menuheading { text-align: center;}
 
 #page3 {
     color:white;
     clear:both;
     text-align:center;
-    padding:450px; 
-    background-image: url("../03.jpg") 
+    padding:160px; 
+    background-color: black;
+/*    background-image: url("../2.jpg") 
+*/}
+#page4 {
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:230px; 
+    background-color: black;
+    background-image: url("../8.jpg") 
 }
+#page5 {
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:70px; 
+
+/*    background-color: black;
+*/}
