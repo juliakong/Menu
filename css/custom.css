@@ -19,6 +19,9 @@ html {
     background-image: url("../01.jpg")
     
 }
+#transimage { opacity: .7;
+/*area shape: circle; }*/
+
 #sidenav {position: absolute;
     right: 40px;
     top: 50px;
