@@ -1,6 +1,7 @@
 
  .navbar.transparent.navbar-inverse .navbar-inner {
-   background: rgba(0,0,0,0.5);
+   background: rgba(0,0,0,0.5); 
+/*   padding: 10px;*/
 }
 
 html { 
@@ -10,6 +11,55 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+@font-face {
+    font-family: 'Reis'; /*a name to be used later*/
+    src: url("../Reis.ttf"); /*URL to font*/
+}
+@font-face {
+    font-family: 'Miso'; /*a name to be used later*/
+    src: url("../miso.otf"); /*URL to font*/
+}
+.title {font-family: "Reis";
+  font-weight: 500;
+  font-size:150px;
+  letter-spacing: 10px;
+  text-align: left;
+padding-bottom: 50px}
+
+.titletwo {font-family: "Miso";
+text-align: left;
+  font-weight: 100;
+  font-size:70px;
+  letter-spacing: 5px;
+    padding-bottom: 10px
+    }
+.titlethree {
+font-family: "Miso";
+font-size: 30px;
+letter-spacing: 3px;
+padding-bottom: 10px;
+}
+.titlefour {
+font-family: "Miso";
+font-size: 50px;
+letter-spacing: 5px;
+padding-bottom: 10px;
+}
+.textbody {font-family: "Miso";
+  font-size:20px;
+  letter-spacing: 2px; 
+}
+.textone { 
+  padding: 80px;
+    background-color: rgba(80,80,80,0.5);
+   
+}
+.texttwo { 
+  
+font-size: 20px;   
+}
+.contact {text-align: right;}
+
 #page1 {
     color: white ;
     clear:both;
@@ -19,12 +69,34 @@ html {
     background-image: url("../01.jpg")
     
 }
-#transimage { opacity: .7;
-/*area shape: circle; }*/
 
-#sidenav {position: absolute;
-    right: 40px;
-    top: 50px;
+.transimage {opacity: .7;}
+.buttonstyle { width:42px; height:42px; border:0;}
+.mapstyle {width:630px;height:500px;border:0;}
+.socialmedia { padding-top:200px;}
+.stltoday {width:60px;height:60px;border:0;}
+.stlmag  {width:150px;height:70px;border:0; }
+.sauce {width:120px;height:70px;border:0;}
+
+.reserve {
+width: 200px;
+height: 200px;
+background-image: url("../circle.png") no-repeat;
+opacity: .8;
+
+}
+.reservepadding {padding-top: 10px; padding-left: 70px;}
+.reservepaddingone { 
+  text-align: right;
+  padding-right: 77px;
+ /* padding-bottom: 10px;
+position: relative;
+top: -1em;
+left: 50;}*/
+}
+#sidenav {position: relative;
+    right: -40px;
+    top: -50px;
     z-index: +1;
 
 }
@@ -33,25 +105,26 @@ html {
     clear:both;
     text-align:left;
     padding:40px; 
-    background-color: gray;
-/*    background-image: url("../07.jpg")*/
+    padding-bottom: 60px;
+    background-image: url("../07.jpg")
 }
 
-#menuheading { text-align: center;}
-
+.menuformatting {padding-bottom: 130px;}
 #page3 {
     color:white;
     clear:both;
     text-align:center;
     padding:160px; 
-    background-color: black;
+    background-color: rgba(140,48,8,0.8);
+
 /*    background-image: url("../2.jpg") 
 */}
 #page4 {
     color:white;
     clear:both;
     text-align:center;
-    padding:230px; 
+    padding:150px; 
+    padding-top:170px;
     background-color: black;
     background-image: url("../8.jpg") 
 }
@@ -59,7 +132,24 @@ html {
     color:white;
     clear:both;
     text-align:center;
-    padding:70px; 
+    padding:70px; }
 
-/*    background-color: black;
-*/}
+
+.carousel,
+.item,
+{
+    height: 100%;
+    width: 100%;
+}
+
+.fill {
+    width: 100%;
+    height: 50%;
+    background-position: center;
+/*    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}*/
+
+
